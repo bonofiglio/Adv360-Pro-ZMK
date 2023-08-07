@@ -1,3 +1,15 @@
+macro_iferrnotnill: macro_iferrnotnill{
+compatible = "zmk,behavior-macro";
+label = "macro_iferrnotnill";
+#binding-cells = <0>;
+bindings = <&kp I>, <&kp F>, <&kp SPACE>, <&kp E>, <&kp R>, <&kp R>, <&kp SPACE>, <&kt LSHIFT>, <&kp NUMBER_1>, <&kt LSHIFT>, <&kp EQUAL>, <&kp SPACE>, <&kp N>, <&kp I>, <&kp L>, <&kp SPACE>, <&kp LBRC>, <&kp ENTER>, <&kp R>, <&kp E>, <&kp T>, <&kp U>, <&kp R>, <&kp N>, <&kp SPACE>, <&kp E>, <&kp R>, <&kp R>, <&kp ENTER>, <&kp RBRC>;
+};
+macro_switch_lang_win: macro_switch_lang_win{
+compatible = "zmk,behavior-macro";
+label = "macro_switch_lang_win";
+#binding-cells = <0>;
+bindings = <&kt LGUI>, <&kp SPACE>, <&kt LGUI>;
+};
 macro_switch_lang: macro_switch_lang{
 compatible = "zmk,behavior-macro";
 label = "macro_switch_lang";
