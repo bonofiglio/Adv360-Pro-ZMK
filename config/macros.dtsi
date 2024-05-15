@@ -1,3 +1,9 @@
+macro_zx_game_alt_tab: macro_zx_game_alt_tab{
+compatible = "zmk,behavior-macro";
+label = "macro_zx_game_alt_tab";
+#binding-cells = <0>;
+bindings = <&kp TAB>, <&to 1>;
+};
 macro_iferrnotnill: macro_iferrnotnill{
 compatible = "zmk,behavior-macro";
 label = "macro_iferrnotnill";
